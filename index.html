@@ -1,0 +1,50 @@
+<html>
+	<!DOCTYPE html>
+	<html lang='en'>
+	<head>
+		<title>Whose's that Pokemon</title>
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet"> 
+		<link rel="stylesheet" type="text/css" href="main.css">
+		<link rel="stylesheet" type="text/css" href="grid.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body>
+		<header role="banner">
+			<div class="nav-bar">
+				<nav role="Navigation">
+					<a href="index.html" role="link" class="homeIcon">
+							<img src="img/pokecenter.png" alt="Home link" class="homeIconImg">
+					</a>
+					<ul class="rightFloat">
+						<li>Question <span class="questionNumber">0</span> of 5</li>
+						<li>Score: <span class="score">0</span></li>
+					</ul>
+
+				</nav>
+			</div>
+		</header>
+		<main role="main">
+      <div class="letsBegin">
+        <h1>Bring out your 90's child we are naming Pokemon</h1>
+        <button class="start blockMe" role="button">Ready?</button>
+      </div>
+			<div id="row">
+				<div class="col6">
+					<div class="questionImage"></div>
+				</div>
+				<div class="col6">
+					<div class="questionContainer"></div>
+        </div>
+        <div class="col6" id="result"></div>
+					
+			</div>
+		</main>
+	</body>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+	crossorigin="anonymous"></script>
+	<script type="text/javascript" src="quiz.js"></script>
+	<script type="text/javascript" src="database.js"></script>
+	<script type="text/javascript" src="randomGen.js"></script>
+</html>

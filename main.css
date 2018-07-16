@@ -1,0 +1,101 @@
+/* %'s based off 960 grid */
+
+body {
+	background-color: #c5525a;
+}
+/*start of Nav bar*/
+nav {
+	background: #ffdeac;
+}
+
+nav:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.nav-bar li {
+	display: inline-block;
+	font-family: 'Arvo', serif;
+	font-size: 1.438em;
+	padding: 0 .625em;
+	color: #ee7331;
+
+}
+
+.homeIconImg {
+	height: 7.8125%;
+	display: inline-block;
+}
+
+main {
+	padding-top: 5%;
+}
+
+.blockMe {
+	display: block;
+	clear: both;
+	margin: 0 auto;
+}
+
+.rightFloat {
+  float: right;
+}
+#pokemon-Img {
+	margin: 0 auto;
+	height: 50%;
+	padding: 0 1%;
+}
+
+.questionImage{
+  text-align: center;
+}
+
+.hidden {
+	filter: contrast(0%) brightness(0%);
+}
+
+label {
+    padding: 1.56%;
+    margin-bottom: 1.0416%;
+    text-align: center;
+    color: #ffdeac;
+    cursor: pointer;
+    line-height: 1.375em;
+    background-color: #836a62;
+}
+label:hover, label:focus {
+    background-color: #ee7331;
+}
+fieldset {
+    border: none;
+}
+
+.result {
+	background-color: #836a62; 
+}
+
+#result p, .letsBegin h1 {
+	border: .3125% solid #ee7331;
+	background-color: #836a62;
+	color: #ee7331;
+	font-family: 'Arvo', serif;
+	font-size: 1.438em;
+	text-align: center;
+	word-wrap: break-word;
+}
+
+button {
+	background: #ee7331;
+	color: #5d1212;
+  padding: 2.083%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#questionRadioRoot h2 {
+	font-family: 'Arvo', serif;
+	font-size: 1.438em;
+	text-align: center;
+	color: #ee7331;
+}
